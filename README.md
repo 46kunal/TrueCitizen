@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# 🔷 TrueCitizen
 
-## Project info
+**TrueCitizen** is a modern, responsive web application built with **React**, **TypeScript**, and **Tailwind CSS**.  
+It was created to showcase a scalable frontend architecture with Vite tooling and UI-first design.
 
-**URL**: https://lovable.dev/projects/daf2fee1-1333-421e-abdf-f46ac47ff69a
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+✅ Built with **React + TypeScript**  
+✅ Fast development with **Vite**  
+✅ Stylish UI using **Tailwind CSS**  
+✅ Component-based structure  
+✅ Ready for deployment
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/daf2fee1-1333-421e-abdf-f46ac47ff69a) and start prompting.
+## 📁 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+TrueCitizen/
+├── src/ # Main source code
+├── components.json # UI component config
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Tech Stack
 
-Follow these steps:
+| Technology | Purpose |
+|------------|---------|
+| **React** | UI & frontend framework |
+| **TypeScript** | Static typing |
+| **Vite** | Build & dev tooling |
+| **Tailwind CSS** | Utility-first UI styling |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Setup & Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1️⃣ Clone the repo
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/46kunal/TrueCitizen.git
+cd TrueCitizen
+2️⃣ Install dependencies
+npm install
+or using yarn
+
+yarn
+▶️ Run Development Server
+Start development with hot reload:
+
 npm run dev
-```
+📦 Build for Production
+npm run build
+📌 Deployment
+After building, deploy the dist/ folder to your favorite static host:
 
-**Edit a file directly in GitHub**
+Vercel
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Netlify
 
-**Use GitHub Codespaces**
+GitHub Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Cloudflare Pages
 
-## What technologies are used for this project?
+🧩 About
+This project was initially created using Lovable.dev (a rapid prototyping platform), and then completed as a clean React/Vite application.
+It can serve as the foundation for larger frontend projects and web apps. 
 
-This project is built with:
+💡 Improvements / Next Steps
+You might consider adding:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Routing (React Router)
 
-## How can I deploy this project?
+API integration
 
-Simply open [Lovable](https://lovable.dev/projects/daf2fee1-1333-421e-abdf-f46ac47ff69a) and click on Share -> Publish.
+Authentication
 
-## Can I connect a custom domain to my Lovable project?
+State management (Redux / Zustand)
 
-Yes, you can!
+Unit & E2E tests
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🤝 Contributing
+Contributions are welcome! If you’d like to make improvements:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Fork the repo
+
+Create a feature branch
+
+Submit a pull request
+
+📝 License
+This project is open-source and can be used freely.
+
